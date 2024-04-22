@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  NetworkScan
+
+  Created by Volodymyr Tretiak on 22.04.2024.
+  
+*/
+
+// MARK: General
+"search_title" = "Search";
+"stop_title" = "Stop";
+
+// MARK: Magnetic DEtection View
+"magnetic_detection_title" = "Magnetic Detection";
+"search_checking_title" = "Search checking";
+"microtesla_symbol_short" = "µT";

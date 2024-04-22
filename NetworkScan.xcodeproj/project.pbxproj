@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		78A0D9FB2BD24F9200AD5283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A0D9FA2BD24F9200AD5283 /* AppDelegate.swift */; };
 		78A0D9FD2BD24F9200AD5283 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A0D9FC2BD24F9200AD5283 /* SceneDelegate.swift */; };
-		78A0D9FF2BD24F9200AD5283 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A0D9FE2BD24F9200AD5283 /* ViewController.swift */; };
-		78A0DA022BD24F9200AD5283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A0DA002BD24F9200AD5283 /* Main.storyboard */; };
 		78A0DA042BD24F9500AD5283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A0DA032BD24F9500AD5283 /* Assets.xcassets */; };
 		78A0DA072BD24F9500AD5283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A0DA052BD24F9500AD5283 /* LaunchScreen.storyboard */; };
+		78A0DA122BD2515A00AD5283 /* MagneticDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A0DA112BD2515A00AD5283 /* MagneticDetectionViewController.swift */; };
+		78A0DA142BD254DC00AD5283 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A0DA132BD254DB00AD5283 /* AppColors.swift */; };
+		78A0DABD2BD258BE00AD5283 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A0DABC2BD258BE00AD5283 /* UIColorExtension.swift */; };
+		78A0DAC22BD4648F00AD5283 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 78A0DAC12BD4648F00AD5283 /* SnapKit */; };
+		78A0DAC42BD4648F00AD5283 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 78A0DAC32BD4648F00AD5283 /* SnapKit-Dynamic */; };
+		78A0DAC62BD5767D00AD5283 /* UIView+AnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A0DAC52BD5767D00AD5283 /* UIView+AnchorPoint.swift */; };
+		78A0DACB2BD63E7A00AD5283 /* AppViewStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A0DACA2BD63E7A00AD5283 /* AppViewStyles.swift */; };
+		78A0DACD2BD64F5F00AD5283 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78A0DACC2BD64F5F00AD5283 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		78A0D9F72BD24F9200AD5283 /* NetworkScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A0D9FA2BD24F9200AD5283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78A0D9FC2BD24F9200AD5283 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		78A0D9FE2BD24F9200AD5283 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		78A0DA012BD24F9200AD5283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78A0DA032BD24F9500AD5283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78A0DA062BD24F9500AD5283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78A0DA082BD24F9500AD5283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78A0DA112BD2515A00AD5283 /* MagneticDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticDetectionViewController.swift; sourceTree = "<group>"; };
+		78A0DA132BD254DB00AD5283 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		78A0DABC2BD258BE00AD5283 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		78A0DAC52BD5767D00AD5283 /* UIView+AnchorPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AnchorPoint.swift"; sourceTree = "<group>"; };
+		78A0DACA2BD63E7A00AD5283 /* AppViewStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewStyles.swift; sourceTree = "<group>"; };
+		78A0DACC2BD64F5F00AD5283 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78A0DAC22BD4648F00AD5283 /* SnapKit in Frameworks */,
+				78A0DAC42BD4648F00AD5283 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +70,57 @@
 			children = (
 				78A0D9FA2BD24F9200AD5283 /* AppDelegate.swift */,
 				78A0D9FC2BD24F9200AD5283 /* SceneDelegate.swift */,
-				78A0D9FE2BD24F9200AD5283 /* ViewController.swift */,
-				78A0DA002BD24F9200AD5283 /* Main.storyboard */,
-				78A0DA032BD24F9500AD5283 /* Assets.xcassets */,
 				78A0DA052BD24F9500AD5283 /* LaunchScreen.storyboard */,
 				78A0DA082BD24F9500AD5283 /* Info.plist */,
+				78A0DABE2BD25AEF00AD5283 /* Helpers */,
+				78A0DABB2BD2589400AD5283 /* Extensions */,
+				78A0DA0E2BD24FE000AD5283 /* View */,
+				78A0DABF2BD25B3E00AD5283 /* Resources */,
 			);
 			path = NetworkScan;
+			sourceTree = "<group>";
+		};
+		78A0DA0E2BD24FE000AD5283 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78A0DA112BD2515A00AD5283 /* MagneticDetectionViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78A0DABB2BD2589400AD5283 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				78A0DABC2BD258BE00AD5283 /* UIColorExtension.swift */,
+				78A0DAC52BD5767D00AD5283 /* UIView+AnchorPoint.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		78A0DABE2BD25AEF00AD5283 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				78A0DA132BD254DB00AD5283 /* AppColors.swift */,
+				78A0DACA2BD63E7A00AD5283 /* AppViewStyles.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		78A0DABF2BD25B3E00AD5283 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				78A0DACE2BD64F7900AD5283 /* Strings */,
+				78A0DA032BD24F9500AD5283 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		78A0DACE2BD64F7900AD5283 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				78A0DACC2BD64F5F00AD5283 /* Localizable.strings */,
+			);
+			path = Strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +139,10 @@
 			dependencies = (
 			);
 			name = NetworkScan;
+			packageProductDependencies = (
+				78A0DAC12BD4648F00AD5283 /* SnapKit */,
+				78A0DAC32BD4648F00AD5283 /* SnapKit-Dynamic */,
+			);
 			productName = NetworkScan;
 			productReference = 78A0D9F72BD24F9200AD5283 /* NetworkScan.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +171,9 @@
 				Base,
 			);
 			mainGroup = 78A0D9EE2BD24F9200AD5283;
+			packageReferences = (
+				78A0DAC02BD4648F00AD5283 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 78A0D9F82BD24F9200AD5283 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +189,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				78A0DA072BD24F9500AD5283 /* LaunchScreen.storyboard in Resources */,
+				78A0DACD2BD64F5F00AD5283 /* Localizable.strings in Resources */,
 				78A0DA042BD24F9500AD5283 /* Assets.xcassets in Resources */,
-				78A0DA022BD24F9200AD5283 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +201,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A0D9FF2BD24F9200AD5283 /* ViewController.swift in Sources */,
+				78A0DA142BD254DC00AD5283 /* AppColors.swift in Sources */,
+				78A0DACB2BD63E7A00AD5283 /* AppViewStyles.swift in Sources */,
 				78A0D9FB2BD24F9200AD5283 /* AppDelegate.swift in Sources */,
+				78A0DA122BD2515A00AD5283 /* MagneticDetectionViewController.swift in Sources */,
 				78A0D9FD2BD24F9200AD5283 /* SceneDelegate.swift in Sources */,
+				78A0DAC62BD5767D00AD5283 /* UIView+AnchorPoint.swift in Sources */,
+				78A0DABD2BD258BE00AD5283 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		78A0DA002BD24F9200AD5283 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78A0DA012BD24F9200AD5283 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		78A0DA052BD24F9500AD5283 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +356,9 @@
 				INFOPLIST_FILE = NetworkScan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,9 +384,9 @@
 				INFOPLIST_FILE = NetworkScan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +422,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		78A0DAC02BD4648F00AD5283 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78A0DAC12BD4648F00AD5283 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78A0DAC02BD4648F00AD5283 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		78A0DAC32BD4648F00AD5283 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78A0DAC02BD4648F00AD5283 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 78A0D9EF2BD24F9200AD5283 /* Project object */;
 }
